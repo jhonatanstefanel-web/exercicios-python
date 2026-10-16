@@ -1,17 +1,15 @@
-# Exercício 36 - pedra, papel ou tesoura
 #Aluno: Jhonatan
-#Objetivo: Criar um programa que simule o jogo pedra, papel ou tesoura.
+#Objetivo: Criar um programa que simule o jogo de pedra, papel e tes
 
-
-from random import random
-
+import random
 
 opcoes = ["pedra", "papel", "tesoura"]
+
 jogador = input("Escolha pedra, papel ou tesoura: ")
 computador = random.choice(opcoes)
 
-print(f"Você escolheu: {jogador}")
-print(f"O computador escolheu: {computador}")
+print("Você escolheu:", jogador)
+print("O computador escolheu:", computador)
 
 if jogador == computador:
     print("Empate!")

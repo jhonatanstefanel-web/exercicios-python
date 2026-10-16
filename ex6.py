@@ -3,8 +3,8 @@
 #Objetivo: Criar um programa que simule uma compra na cantina, calculando o total da compra e o troco.
 
 # le o preço do produto e a quantidade comprada
-preco = float(input("Digite o preço do produto: "))
-quantidade = int(input("Digite a quantidade comprada: "))
+preco = float(input("Digite o preço do lanche: "))
+quantidade = int(input("Digite a quantidade de lanches: "))
 
 # calcula o total da compra
 total = preco * quantidade

@@ -1,4 +1,4 @@
-# Exercício 32 - Login de usuario com senha
+# Exercício 32 - Login de usuário com senha
 #Aluno: Jhonatan
 #Objetivo: Criar um programa que verifique se o usuário e a senha estão corretos.
 

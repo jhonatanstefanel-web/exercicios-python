@@ -5,6 +5,6 @@ velocidade = float(input("Digite a velocidade do motorista: "))
 limite = 80
 
 if velocidade > limite:
-    print("O motorista está acima do limite de velocidade.")
+    print("Multado! Você passou do limite.")
 else:
     print("O motorista está dentro do limite de velocidade.")
